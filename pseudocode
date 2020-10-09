@@ -1,3 +1,8 @@
+def main menu
+  request desired function to run
+  run requested funtion.
+
+
 def square 
  request side length
   calculate side x side
@@ -5,16 +10,20 @@ def rect
   request width and length
   calculate l x w 
 
-def circle
-  request radius
-  calculate pi x (r x r)
+def main menu
+  request desired function to run
+  run requested funtion.
   
-def triangle
+  def triangle
   request base length
   request triangle hieght
   caclulate base x height /2
   
+def circle
+  request radius
+  calculate pi x (r x r)
   
-def main menu
-  request desired function to run
-  run requested funtion.
+
+  
+  
+
