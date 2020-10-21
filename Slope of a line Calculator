@@ -1,0 +1,36 @@
+def TitleCard():
+    
+    print ("  _____ _                     _____      _            _       _  ")           
+    print (" / ____| |                   / ____|    | |          | |     | |     ")       
+    print ("| (___ | | ___  _ __   ___  | |     __ _| | ___ _   _| | __ _| |_ ___  _ __ ")
+    print (" \___ \| |/ _ \| '_ \ / _ \ | |    / _` | |/ __| | | | |/ _` | __/ _ \| '__|")
+    print (" ____) | | (_) | |_) |  __/ | |___| (_| | | (__| |_| | | (_| | || (_) | |   ")
+    print ("|_____/|_|\___/| .__/ \___|  \_____\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   ")
+    print ("               | | ")                                                         
+    print ("               |_|          By Caleb Russell   ")
+    print("                                                                             ")
+    print("type Slope_Formula() to begin")
+    Slope_Notes()
+    return
+
+def Slope_Notes():
+    print ("                                                                                                 ")
+    print ("NOTE when reducing fractions, reduce B by the same amount.")
+    print (" EX: y = 10/6x + 10 ---> y = 5/3x + 5.")
+    print  ("If you have read this type Slope_Formula() to continue")
+    return ("Continue?")
+
+def Slope_Formula():
+    x1 = int(input("Enter value of X point one "))
+    y1 = int(input("Enter value of Y point one "))
+    x2 = int(input ("Enter the value of X point two "))
+    y2 = int(input("Enter Value of Y point two "))
+    num = y2-y1
+    den = x2-x1
+    inter = y2-y1*x2
+    slope = (num/den)
+    inter = y1-slope*x1
+       
+    print("y = ",num,"/",den,"X +",inter)
+  
+TitleCard()
